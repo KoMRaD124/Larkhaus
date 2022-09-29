@@ -79,14 +79,16 @@ h6 {
 
 .header {
   min-width: 100%;
-  min-height: 100%;
+
   overflow: hidden;
   background-image: url(image/backgroundHeader.png);
   background-size: 100% 100%;
 }
 .header-container {
   margin-left: calc(100vw / 1280 * 70);
+  display: flex;
 }
+
 .header-left-navbar {
   display: flex;
   padding-top: calc(100vw / 1280 * 45);
@@ -125,6 +127,7 @@ h6 {
 
 .header-left-content {
   margin-top: calc(100vw / 1280 * 60);
+  flex: 1 1 auto;
 }
 .header-left-content-header {
   width: calc(100vw / 1280 * 630);
@@ -149,7 +152,10 @@ h6 {
   margin-top: calc(100vw / 1280 * 40);
 }
 .header-left-links {
-  margin-top: calc(100vw / 1280 * 100);
+  /* padding-bottom:calc(100vw / 1280 *70) ; */
+
+  padding-top: 80px;
+  margin-bottom: 70px;
 }
 .header-left-links a {
   display: block;
@@ -157,20 +163,174 @@ h6 {
   font-style: normal;
   font-weight: 400;
   font-size: calc(100vw / 1280 * 22);
-  line-height:calc(100vw / 1280 * 22);
+  line-height: calc(100vw / 1280 * 22);
   letter-spacing: 0.07em;
   padding-top: calc(100vw / 1280 * 20);
   color: #ffffff;
 }
-.header-left-links span{
-  padding-left: calc(100vw / 1280 * 20);
+.header-left-links img {
+  width: calc(100vw / 1280 * 32);
+  height: calc(100vw / 1280 * 32);
+  /* padding-bottom: 15px; */
 }
-.header-left-links-watg{
+.header-left-links span {
+  padding-left: calc(100vw / 1280 * 20);
+  /*  padding-top: 15px; */
+}
+.header-left-links-watg {
   padding-top: calc(100vw / 1280 * 20);
 }
 .header-left-links-watg a {
   display: inline;
 }
-.header-left-links-watg a:nth-child(2){
-  padding-left: calc(100vw / 1280 * 20);;
+.header-left-links-watg img {
+  width: calc(100vw / 1280 * 32);
+  height: calc(100vw / 1280 * 32);
+  /* padding-bottom: 0; */
+}
+.header-left-links-watg a:nth-child(2) {
+  padding-left: calc(100vw / 1280 * 20);
+}
+.header-right {
+  margin-left: calc(100vw / 1280 * 70);
+  width: calc(100vw / 1280 * 360);
+  background-color: #ffffff;
+  margin-bottom: calc(100vw / 1280 * 70);
+}
+.header-right-logo img {
+  width: calc(100vw / 1280 * 240);
+  margin-left: calc(100vw / 1280 * 50);
+  padding-top: calc(100vw / 1280 * 40);
+}
+.header-right-content {
+  margin-left: calc(100vw / 1280 * 50);
+  padding-top: calc(100vw / 1280 * 33);
+}
+.header-right-content-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 30);
+  line-height: calc(100vw / 1280 * 37);
+  letter-spacing: 0.07em;
+  padding-top: calc(100vw / 1280 * 40);
+}
+.header-right-content-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 16);
+  line-height: calc(100vw / 1280 * 19);
+  letter-spacing: 0.07em;
+  padding-top: calc(100vw / 1280 * 20);
+}
+/* В ПРОДАЖЕ */
+.vprodaje {
+  display: flex;
+}
+.vprodaje-left {
+  width: calc(100vw / 1280 * 726);
+  margin-top: calc(100vw / 1280 * 70);
+  margin-left: calc(100vw / 1280 * 70);
+}
+.vprodaje-left-header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 48);
+  line-height: calc(100vw / 1280 * 56);
+  letter-spacing: 0.07em;
+}
+.vprodaje-left-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(100vw / 1280 * 24);
+  line-height: 140.5%;
+  padding-top: calc(100vw / 1280 * 40);
+  letter-spacing: 0.04em;
+}
+.vprodaje-left-address {
+  padding-top: calc(100vw / 1280 * 40);
+  display: flex;
+}
+.vprodaje-left-address-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 28);
+  line-height: 140%;
+  letter-spacing: 0.07em;
+  padding-left: calc(100vw / 1280 * 36);
+  color: black;
+  width: calc(100vw / 1280 * 600);
+}
+.vprodaje-left-address-pin {
+  width: calc(100vw / 1280 * 35);
+  padding-top: calc(100vw / 1280 * 20);
+}
+.vprodaje-right {
+  margin-left: calc(100vw / 1280 * 54);
+  margin-top: calc(100vw / 1280 * 166);
+}
+.vprodaje-right-price {
+  width: calc(100vw / 1280 * 360);
+  height: calc(100vw / 1280 * 68);
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(100vw / 1280 * 26);
+  line-height: 140%;
+  letter-spacing: 0.08em;
+}
+.vprodaje-right-price span {
+  display: block;
+  padding-top: calc(100vw / 1280 * 16);
+}
+.vprodaje-right-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 26);
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  color: #1a1a1a;
+  padding-top: calc(100vw / 1280 * 40);
+}
+.vprodaje-right-header-first {
+  padding-top: calc(100vw / 1280 * 67);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 26);
+  line-height: 140%;
+  letter-spacing: 0.08em;
+  color: #1a1a1a;
+}
+.vprodaje-right-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(100vw / 1280 * 26);
+  line-height: 140.5%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.08em;
+  color: #1a1a1a;
+  padding-top: calc(100vw / 1280 * 9);
+}
+.vprodaje-img{
+  margin-left: calc(100vw / 1280 * 70);
+  display: flex;
+  margin-top: calc(100vw / 1280 * 57);
+}
+.vprodaje-img-left img{
+  min-width: calc(100vw / 1280 * 710) ;
+}
+.vprodaje-img-right img{
+  margin-left: calc(100vw / 1280 * 70);
+  min-width: calc(100vw / 1280 * 360) ;
 }
