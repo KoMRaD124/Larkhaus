@@ -410,20 +410,57 @@ h6 {
   font-weight: 700;
   font-size: calc(100vw / 1280 * 40);
   line-height: calc(100vw / 1280 * 47);
-  
+
   letter-spacing: 0.07em;
 }
-.inprogress-photo1{
+.inprogress-photo1 {
   display: flex;
 }
-.inprogress-photo1-img1 img{
-  width:calc(100vw / 1280 * 710) ;
+.inprogress-photo1-img1 img {
+  width: calc(100vw / 1280 * 710);
 }
-.inprogress-photo1-img2 img{
-  width:calc(100vw / 1280 * 360) ;
-  margin-left: calc(100vw / 1280 * 70) ;
+.inprogress-photo1-img2 img {
+  width: calc(100vw / 1280 * 360);
+  margin-left: calc(100vw / 1280 * 70);
 }
-.inprogress-photo2{
+.inprogress-photo2 {
   display: flex;
-   margin-top:calc(100vw / 1280 * 70) ;
+  margin-top: calc(100vw / 1280 * 70);
+  padding-bottom: calc(100vw / 1280 * 70);
+}
+.inprogress-photo2-img1 img {
+  width: calc(100vw / 1280 * 285);
+}
+.inprogress-photo2-img2 img {
+  width: calc(100vw / 1280 * 355);
+  margin-left: calc(100vw / 1280 * 70);
+}
+.inprogress-photo2-img3 img {
+  width: calc(100vw / 1280 * 360);
+  margin-left: calc(100vw / 1280 * 70);
+}
+.tactical {
+  display: flex;
+  margin-left: calc(100vw / 1280 * 70);
+}
+.tactical-left {
+  margin-top: calc(100vw / 1280 * 70);
+}
+.tactical-left-header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 48);
+  line-height: calc(100vw / 1280 * 56);
+  letter-spacing: 0.07em;
+}
+.tactical-left-text {
+  width: calc(100vw / 1280 * 687);
+  padding-top: calc(100vw / 1280 * 57);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(100vw / 1280 * 24);
+  line-height: 140.5%;
+  letter-spacing: 0.04em;
 }
