@@ -81,7 +81,7 @@ h6 {
   min-width: 100%;
   min-height: 100%;
   overflow: hidden;
-  background-image: url(/image/backgroundHeader.png);
+  background-image: url(image/backgroundHeader.png);
   background-size: 100% 100%;
 }
 .header-container {
