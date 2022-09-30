@@ -415,6 +415,7 @@ h6 {
 }
 .inprogress-photo1 {
   display: flex;
+  padding-top:calc(100vw / 1280 * 57) ;
 }
 .inprogress-photo1-img1 img {
   width: calc(100vw / 1280 * 710);
@@ -463,4 +464,108 @@ h6 {
   font-size: calc(100vw / 1280 * 24);
   line-height: 140.5%;
   letter-spacing: 0.04em;
+}
+
+.tactical-right {
+  margin-top: calc(100vw / 1280 * 166);
+  margin-left: calc(100vw / 1280 * 95);
+}
+.tactical-right-text {
+  width: calc(100vw / 1280 * 360);
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(100vw / 1280 * 24);
+  line-height: 140.5%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  padding: calc(100vw / 1280 * 20) calc(100vw / 1280 * 30);
+}
+
+.tactical-right-buttons {
+  margin-top: calc(100vw / 1280 * 74);
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 22);
+  line-height: calc(100vw / 1280 * 22);
+  letter-spacing: 0.07em;
+  color: #1a1a1a;
+}
+.tactical-right-buttons-1etbez {
+  padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
+  display: inline-block;
+  margin-top: calc(100vw / 1280 * 40);
+  border: calc(100vw / 1280 * 3) solid #1a1a1a;
+  cursor: pointer;
+}
+.tactical-right-buttons-1ets {
+  padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
+  display: inline-block;
+  margin-top: calc(100vw / 1280 * 40);
+  border: calc(100vw / 1280 * 3) solid #1a1a1a;
+  cursor: pointer;
+}
+.tactical-right-buttons-2et {
+  padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
+  display: inline-block;
+  margin-top: calc(100vw / 1280 * 40);
+  border: calc(100vw / 1280 * 3) solid #1a1a1a;
+  cursor: pointer;
+}
+.active-button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.tactical-left-img img {
+  margin-top: calc(100vw / 1280 * 60);
+  width: calc(100vw / 1280 * 702);
+  height: calc(100vw / 1280 * 455);
+  margin-bottom: calc(100vw / 1280 * 70);
+}
+.tactical-left-img1 {
+  display: none;
+}
+.tactical-left-img2 {
+  display: none;
+}
+.tactical-left-img3 {
+  display: none;
+}
+.active-img {
+  display: block;
+}
+.hotite {
+  background: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.9),
+      rgba(20, 20, 20, 0.9)
+    ),
+    url(image/BgHotite.png);
+  background-size: 100% 100%;
+  color: #ffffff;
+  padding-left: calc(100vw / 1280 * 70);
+}
+.hotite-header {
+  padding-top: calc(100vw / 1280 * 70);
+  width: calc(100vw / 1280 * 730);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 48);
+  line-height: calc(100vw / 1280 * 56);
+  letter-spacing: 0.07em;
+}
+.hotite-text {
+  width: calc(100vw / 1280 * 650);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(100vw / 1280 * 24);
+  line-height: 140.5%;
+  letter-spacing: 0.04em;
+  padding-top: calc(100vw / 1280 * 57);
 }
