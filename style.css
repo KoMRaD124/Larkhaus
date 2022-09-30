@@ -618,14 +618,36 @@ h6 {
   letter-spacing: 0.07em;
 }
 
-.stroimtakje-img{
+.stroimtakje-img {
   display: flex;
   padding-top: calc(100vw / 1280 * 57);
-  margin-bottom: calc(100vw / 1280 * 70); ;
+  margin-bottom: calc(100vw / 1280 * 70);
 }
-.stroimtakje-img-1 img{
+.stroimtakje-img-1 img {
   width: calc(100vw / 1280 * 710);
-}.stroimtakje-img-2 img{
+}
+.stroimtakje-img-2 img {
   margin-left: calc(100vw / 1280 * 70);
   width: calc(100vw / 1280 * 360);
+}
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+.footer-container {
+  padding: calc(100vw / 1280 * 34) calc(100vw / 1280 * 70);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container-logo img {
+  width: calc(100vw / 1280 * 278);
+}
+.footer-container-data {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(100vw / 1280 * 22);
+  line-height: calc(100vw / 1280 * 22);
+  letter-spacing: 0.07em;
+  padding-top: calc(100vw / 1280 * 14);;
 }
