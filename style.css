@@ -103,6 +103,12 @@ h6 {
   font-weight: 500;
   color: white;
 }
+.header-left-navbar-links a:hover {
+  color: #d7d7d7;
+}
+.header-left-navbar-links a:focus {
+  color: #a5a5a5;
+}
 .header-left-navbar-links a:nth-child(2) {
   margin-left: calc(100vw / 1280 * 70);
 }
@@ -495,12 +501,17 @@ h6 {
   letter-spacing: 0.07em;
   color: #1a1a1a;
 }
+
 .tactical-right-buttons-1etbez {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
   display: inline-block;
   margin-top: calc(100vw / 1280 * 40);
   border: calc(100vw / 1280 * 3) solid #1a1a1a;
   cursor: pointer;
+}
+.tactical-right-buttons-1etbez:hover {
+  background-color: #2f2f2f;
+  color: #d7d7d7;
 }
 .tactical-right-buttons-1ets {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
@@ -509,12 +520,20 @@ h6 {
   border: calc(100vw / 1280 * 3) solid #1a1a1a;
   cursor: pointer;
 }
+.tactical-right-buttons-1ets:hover {
+  background-color: #2f2f2f;
+  color: #d7d7d7;
+}
 .tactical-right-buttons-2et {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
   display: inline-block;
   margin-top: calc(100vw / 1280 * 40);
   border: calc(100vw / 1280 * 3) solid #1a1a1a;
   cursor: pointer;
+}
+.tactical-right-buttons-2et:hover {
+  background-color: #2f2f2f;
+  color: #d7d7d7;
 }
 .active-button {
   background-color: #1a1a1a;
@@ -649,5 +668,5 @@ h6 {
   font-size: calc(100vw / 1280 * 22);
   line-height: calc(100vw / 1280 * 22);
   letter-spacing: 0.07em;
-  padding-top: calc(100vw / 1280 * 14);;
+  padding-top: calc(100vw / 1280 * 14);
 }
