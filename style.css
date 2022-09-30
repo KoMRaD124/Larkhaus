@@ -415,7 +415,7 @@ h6 {
 }
 .inprogress-photo1 {
   display: flex;
-  padding-top:calc(100vw / 1280 * 57) ;
+  padding-top: calc(100vw / 1280 * 57);
 }
 .inprogress-photo1-img1 img {
   width: calc(100vw / 1280 * 710);
@@ -568,4 +568,64 @@ h6 {
   line-height: 140.5%;
   letter-spacing: 0.04em;
   padding-top: calc(100vw / 1280 * 57);
+}
+.hotite-mail {
+  margin-top: calc(100vw / 1280 * 40);
+  border: calc(100vw / 1280 * 3) solid #ffffff;
+  display: inline-block;
+  margin-bottom: calc(100vw / 1280 * 70);
+}
+.hotite-mail a {
+  display: block;
+  padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 22);
+  line-height: calc(100vw / 1280 * 22);
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+.hotite-phone {
+  margin-top: calc(100vw / 1280 * 30);
+  border: calc(100vw / 1280 * 3) solid #ffffff;
+  display: inline-block;
+}
+.hotite-phone a {
+  display: block;
+  padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
+  display: block;
+  padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 22);
+  line-height: calc(100vw / 1280 * 22);
+  letter-spacing: 0.07em;
+  color: #ffffff;
+}
+.stroimtakje {
+  margin-left: calc(100vw / 1280 * 70);
+}
+.stroimtakje-header {
+  padding-top: calc(100vw / 1280 * 70);
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 48);
+  line-height: calc(100vw / 1280 * 56);
+  letter-spacing: 0.07em;
+}
+
+.stroimtakje-img{
+  display: flex;
+  padding-top: calc(100vw / 1280 * 57);
+  margin-bottom: calc(100vw / 1280 * 70); ;
+}
+.stroimtakje-img-1 img{
+  width: calc(100vw / 1280 * 710);
+}.stroimtakje-img-2 img{
+  margin-left: calc(100vw / 1280 * 70);
+  width: calc(100vw / 1280 * 360);
 }
