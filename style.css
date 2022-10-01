@@ -96,18 +96,18 @@ h6 {
 
 .header-left-navbar-links a {
   font-size: calc(100vw / 1280 * 22);
-  font-family: "Josefin Sans";
+  font-family: "Raleway";
   font-style: normal;
-  letter-spacing: 0.07em;
-  line-height: calc(100vw / 1280 * 22);
+  letter-spacing: 0.04em;
+  line-height: calc(100vw / 1280 * 26);
   font-weight: 500;
   color: white;
 }
-.header-left-navbar-links a:hover{
-  color: #D7D7D7;
+.header-left-navbar-links a:hover {
+  color: #d7d7d7;
 }
-.header-left-navbar-links a:focus{
-  color: #A5A5A5;
+.header-left-navbar-links a:focus {
+  color: #a5a5a5;
 }
 .header-left-navbar-links a:nth-child(2) {
   margin-left: calc(100vw / 1280 * 70);
@@ -130,11 +130,11 @@ h6 {
   padding-left: calc(100vw / 1280 * 17);
   padding-right: calc(100vw / 1280 * 16);
 }
-.header-left-navbar-phone:hover{
+.header-left-navbar-phone:hover {
   background-color: white;
   color: black;
 }
-.header-left-navbar-phone a:hover{
+.header-left-navbar-phone a:hover {
   color: black;
 }
 
@@ -167,16 +167,51 @@ h6 {
 .header-left-links {
   /* padding-bottom:calc(100vw / 1280 *70) ; */
 
-  padding-top: 80px;
-  margin-bottom: 70px;
+  padding-top: calc(100vw / 1280 * 80);
+  margin-bottom: calc(100vw / 1280 * 70);
 }
-.header-left-links a {
-  display: block;
+
+.link-container .phone-header-text {
+  display: flex;
+  background-image: url(image/icons/mobile.svg);
+  background-repeat: no-repeat;
+  background-size: calc(100vw / 1280 * 25);
+}
+.link-container:hover .phone-header-text {
+  background-image: url(image/icons/mobileHover.svg);
+  color: #d7d7d7;
+  background-repeat: no-repeat;
+}
+.link-container .mail-header-text {
+  display: flex;
+  background-image: url(image/icons/mail.svg);
+  background-repeat: no-repeat;
+  background-size: calc(100vw / 1280 * 28);
+}
+.mail-header-text {
+  padding-left: calc(100vw / 1280 * 50);
+}
+.link-container:hover .mail-header-text {
+  background-image: url(image/icons/maiHover.svg);
+  color: #d7d7d7;
+  background-repeat: no-repeat;
+}
+
+.phone-header-text {
+  padding-left: calc(100vw / 1280 * 50);
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
   font-size: calc(100vw / 1280 * 22);
   line-height: calc(100vw / 1280 * 22);
+}
+.header-left-links a {
+  display: block;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 22);
+  line-height: calc(100vw / 1280 * 26);
   letter-spacing: 0.07em;
   padding-top: calc(100vw / 1280 * 20);
   color: #ffffff;
@@ -191,18 +226,32 @@ h6 {
   /*  padding-top: 15px; */
 }
 .header-left-links-watg {
-  padding-top: calc(100vw / 1280 * 20);
+  /* padding-top: calc(100vw / 1280 * 20); */
+  display: flex;
 }
 .header-left-links-watg a {
   display: inline;
 }
-.header-left-links-watg img {
-  width: calc(100vw / 1280 * 32);
-  height: calc(100vw / 1280 * 32);
-  /* padding-bottom: 0; */
+.link-wa {
+  width: calc(100vw / 1280 * 44);
+  height: calc(100vw / 1280 * 44);
+  background-image: url("image/icons/WA.svg");
+  background-repeat: no-repeat;
+  background-size: calc(100vw / 1280 * 44);
 }
-.header-left-links-watg a:nth-child(2) {
-  padding-left: calc(100vw / 1280 * 20);
+.link-tg {
+  width: calc(100vw / 1280 * 44);
+  height: calc(100vw / 1280 * 44);
+  background-image: url("image/icons/TG.svg");
+  margin-left: calc(100vw / 1280 * 16);
+  background-repeat: no-repeat;
+  background-size: calc(100vw / 1280 * 44);
+}
+.link-tg:hover {
+  background-image: url("image/icons/TGhover.svg");
+}
+.link-wa:hover {
+  background-image: url("image/icons/WAhover.svg");
 }
 .header-right {
   margin-left: calc(100vw / 1280 * 70);
@@ -263,6 +312,13 @@ h6 {
   padding-top: calc(100vw / 1280 * 40);
   letter-spacing: 0.04em;
 }
+.vprodaje-left-text-bold{
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: calc(100vw / 1280 * 24);
+  line-height: 140.5%;
+  letter-spacing: 0.04em;
+}
 .vprodaje-left-address {
   padding-top: calc(100vw / 1280 * 40);
   display: flex;
@@ -274,19 +330,30 @@ h6 {
   font-size: calc(100vw / 1280 * 28);
   line-height: 140%;
   letter-spacing: 0.07em;
-  padding-left: calc(100vw / 1280 * 36);
+  padding-left: calc(100vw / 1280 * 72);
   color: black;
   width: calc(100vw / 1280 * 600);
 }
-.vprodaje-left-address-pin {
+/* .vprodaje-left-address-pin {
   width: calc(100vw / 1280 * 35);
   padding-top: calc(100vw / 1280 * 20);
+} */
+.link-container .vprodaje-left-address-text{
+  display: flex;
+  background-image: url(image/icons/pinNormal.svg);
+  background-repeat: no-repeat;
+  background-size: calc(100vw / 1280 * 35) calc(100vw / 1280 * 50);
+  background-position: left center;
+}
+.link-container:hover .vprodaje-left-address-text{
+  background-image: url(image/icons/pinHover.svg);
 }
 .vprodaje-right {
   margin-left: calc(100vw / 1280 * 54);
   margin-top: calc(100vw / 1280 * 166);
 }
 .vprodaje-right-price {
+  display: block;
   width: calc(100vw / 1280 * 360);
   height: calc(100vw / 1280 * 68);
   background-color: black;
@@ -302,6 +369,9 @@ h6 {
 .vprodaje-right-price span {
   display: block;
   padding-top: calc(100vw / 1280 * 16);
+}
+.vprodaje-right-price:hover{
+  background-color: #2F2F2F;
 }
 .vprodaje-right-header {
   font-family: "Montserrat";
@@ -342,11 +412,11 @@ h6 {
   margin-bottom: calc(100vw / 1280 * 70);
 }
 .vprodaje-img-left img {
-  min-width: calc(100vw / 1280 * 710);
+  width: calc(100vw / 1280 * 710);
 }
 .vprodaje-img-right img {
   margin-left: calc(100vw / 1280 * 70);
-  min-width: calc(100vw / 1280 * 360);
+  width: calc(100vw / 1280 * 360);
 }
 .eco {
   background-color: #1a1a1a;
@@ -376,7 +446,7 @@ h6 {
   padding-top: calc(100vw / 1280 * 55);
 }
 .eco-left-img img {
-  min-width: calc(100vw / 1280 * 710);
+  width: calc(100vw / 1280 * 710);
   padding-top: calc(100vw / 1280 * 60);
 }
 .eco-right {
@@ -400,16 +470,14 @@ h6 {
   text-align: center;
   vertical-align: middle;
   letter-spacing: 0.07em;
-  text-transform: uppercase;
 }
 .eco-right-block-header span {
   font-family: "Josefin Sans";
   font-style: normal;
-  font-weight: 600;
-  font-size: calc(100vw / 1280 * 36);
-  line-height: calc(100vw / 1280 * 72);
+  font-weight: 700;
+  font-size: calc(100vw / 1280 * 28);
+  line-height: calc(100vw / 1280 * 33);
   letter-spacing: 0.07em;
-  text-transform: uppercase;
 }
 .inprogress {
   background-color: #1a1a1a;
@@ -516,9 +584,9 @@ h6 {
   border: calc(100vw / 1280 * 3) solid #1a1a1a;
   cursor: pointer;
 }
-.tactical-right-buttons-1etbez:hover{
-  background-color: #2F2F2F;
-  color: #D7D7D7;
+.tactical-right-buttons-1etbez:hover {
+  background-color: #2f2f2f;
+  color: #d7d7d7;
 }
 .tactical-right-buttons-1ets {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
@@ -527,7 +595,10 @@ h6 {
   border: calc(100vw / 1280 * 3) solid #1a1a1a;
   cursor: pointer;
 }
-.tactical-right-buttons-1ets:hover{background-color: #2F2F2F;color: #D7D7D7;}
+.tactical-right-buttons-1ets:hover {
+  background-color: #2f2f2f;
+  color: #d7d7d7;
+}
 .tactical-right-buttons-2et {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
   display: inline-block;
@@ -535,7 +606,10 @@ h6 {
   border: calc(100vw / 1280 * 3) solid #1a1a1a;
   cursor: pointer;
 }
-.tactical-right-buttons-2et:hover{background-color: #2F2F2F;color: #D7D7D7;}
+.tactical-right-buttons-2et:hover {
+  background-color: #2f2f2f;
+  color: #d7d7d7;
+}
 .active-button {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -559,11 +633,7 @@ h6 {
   display: block;
 }
 .hotite {
-  background: linear-gradient(
-      0deg,
-      rgba(20, 20, 20, 0.9),
-      rgba(20, 20, 20, 0.9)
-    ),
+  background:
     url(image/bgHotite.png);
   background-size: 100% 100%;
   color: #ffffff;
@@ -606,10 +676,18 @@ h6 {
   letter-spacing: 0.07em;
   color: #ffffff;
 }
+.hotite-mail:hover a{
+  background-color: #fff;
+  color: #1a1a1a;
+}
 .hotite-phone {
   margin-top: calc(100vw / 1280 * 30);
   border: calc(100vw / 1280 * 3) solid #ffffff;
   display: inline-block;
+}
+.hotite-phone:hover a{
+  background-color: #fff;
+  color: #1a1a1a;
 }
 .hotite-phone a {
   display: block;
@@ -669,5 +747,6 @@ h6 {
   font-size: calc(100vw / 1280 * 22);
   line-height: calc(100vw / 1280 * 22);
   letter-spacing: 0.07em;
-  padding-top: calc(100vw / 1280 * 14);;
+  padding-top: calc(100vw / 1280 * 14);
+  margin-right: calc(100vw / 1280 * -15);
 }
