@@ -83,6 +83,41 @@ h6 {
   background-image: url(image/backgroundHeader.png);
   background-size: 100% 100%;
 }
+ @media (max-width: 743px) {
+  .header {
+    width: 100%;
+    height: 534px;
+    /* background-image: url("image/bgMobileBig.png"); */
+    background-repeat: no-repeat;
+    background-size: auto 534px;
+    background-position: left;
+  }
+  .header-right {
+    display: none;
+  }
+  .header-left-navbar {
+    display: none;
+  }
+  .header-container {
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+  }
+} 
+@media (max-width: 430px) {
+  .header {
+    background-image: url("image/bgMobileBig.png");
+    background-size: auto;
+    background-position: center;
+  }
+}
+
+.header-container {
+  margin-left: calc(100vw / 1280 * 70);
+  display: flex;
+}
 @media (max-width: 743px) {
   .header {
     width: 100%;
@@ -102,20 +137,9 @@ h6 {
     min-width: 300px;
     display: flex;
     justify-content: center;
+    
     margin: 0 auto;
   }
-}
-@media (max-width: 430px) {
-  .header {
-    background-image: url("image/bgMobileBig.png");
-    background-size: auto;
-    background-position: center;
-  }
-}
-
-.header-container {
-  margin-left: calc(100vw / 1280 * 70);
-  display: flex;
 }
 
 .header-left-navbar {
@@ -223,7 +247,6 @@ h6 {
   .header-left-content-text {
     font-size: 20px;
     line-height: 150%;
-
     width: 240px;
     font-style: normal;
     font-weight: 400;
@@ -231,7 +254,7 @@ h6 {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #ffffff;
-    margin-top: calc(100vw / 1280 * 40);
+    margin-top: 30px;
   }
   .header-left-links {
     padding-top: 60px;
@@ -396,7 +419,7 @@ h6 {
   }
   .vprodaje-mobile {
     display: block;
-    padding-left: 12px;
+    /* padding-left: 12px; */
     padding-right: 12px;
   }
   .vprodaje-mobile-header {
@@ -472,7 +495,7 @@ h6 {
   .vprodaje-left {
     width: 300px;
     margin-top: 80px;
-    margin-left: 12px;
+    margin-left: 0px;
   }
   .vprodaje-left-header {
     font-size: calc(100vw / 1280 * 48);
@@ -483,7 +506,11 @@ h6 {
   }
   .vprodaje-left-address-text {
     font-size: 16px;
-    width: 228px;
+    width: 250px;
+    padding-left: 45px;
+  }
+  .vprodaje-left-address {
+    padding-top: 30px;
   }
   .vprodaje-left-text {
     font-size: 16px;
@@ -592,6 +619,9 @@ h6 {
     width: 300px;
     margin-bottom: 30px;
   }
+  .link-container .vprodaje-left-address-text{
+    background-size: 17.5px 25px;
+  }
 }
 .vprodaje-right-wrapper {
   display: none;
@@ -604,7 +634,7 @@ h6 {
     margin: 0 auto;
   }
   .vprodaje-right-mobile {
-    margin-left: 12px;
+    margin-left: 0px;
     margin-top: 0px;
   }
   .vprodaje-right-price-mobile {
@@ -706,7 +736,7 @@ h6 {
   }
   .eco-left {
     padding-top: 40px;
-    margin-left: 12px;
+    margin-left: 0px;
   }
   .eco-left-header {
     font-family: "Raleway";
@@ -718,6 +748,7 @@ h6 {
     width: 178px;
   }
   .eco-left-text {
+    padding-top: 30px;
     width: 300px;
     font-family: "Raleway";
     font-style: normal;
@@ -764,7 +795,7 @@ h6 {
 @media (max-width: 743px) {
   .eco-right {
     padding-top: 0;
-    padding-left: 12px;
+    padding-left: 0px;
   }
   .eco-right-block {
     display: flex;
@@ -849,10 +880,10 @@ h6 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 315px;
+    width: 300px;
     margin: 0 auto;
     color: #ffffff;
-    padding-left: 18px;
+    padding-left: 0px;
     padding-top: 40px;
   }
   .inprogress-header {
@@ -925,12 +956,12 @@ h6 {
     width: 100%;
   }
   .tactical {
+    margin-left: 0px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     width: 300px;
     margin: 0 auto;
-    padding-left: 12px;
     padding-top: 40px;
   }
   .tactical-left {
@@ -1087,7 +1118,7 @@ h6 {
     margin-top: 48px;
     width: 300px;
     height: 205px;
-    margin-bottom: calc(100vw / 1280 * 70);
+    margin-bottom: 30px;
   }
 }
 .hotite {
@@ -1174,7 +1205,7 @@ h6 {
     width: 300px;
     background: none;
     color: #ffffff;
-    padding-left: 12px;
+    padding-left: 0px;
     margin: 0 auto;
   }
   .hotite-header {
