@@ -1021,6 +1021,7 @@ h6 {
 .tactical-right-buttons-1etbez:hover {
   background-color: #2f2f2f;
   color: #d7d7d7;
+  border: calc(100vw / 1280 * 3) solid #2f2f2f;
 }
 .tactical-right-buttons-1ets {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
@@ -1032,6 +1033,7 @@ h6 {
 .tactical-right-buttons-1ets:hover {
   background-color: #2f2f2f;
   color: #d7d7d7;
+  border: calc(100vw / 1280 * 3) solid #2f2f2f;
 }
 .tactical-right-buttons-2et {
   padding: calc(100vw / 1280 * 14) calc(100vw / 1280 * 20);
@@ -1043,6 +1045,7 @@ h6 {
 .tactical-right-buttons-2et:hover {
   background-color: #2f2f2f;
   color: #d7d7d7;
+  border: calc(100vw / 1280 * 3) solid #2f2f2f;
 }
 .active-button {
   background-color: #1a1a1a;
@@ -1124,7 +1127,7 @@ h6 {
   }
 }
 .hotite {
-  background: url(image/bgHotite.png);
+  background: url(image/bgHotite.jpg);
   background-size: 100% 100%;
   color: #ffffff;
   padding-left: calc(100vw / 1280 * 70);
