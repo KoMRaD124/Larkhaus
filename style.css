@@ -83,7 +83,7 @@ h6 {
   background-image: url(image/backgroundHeader.png);
   background-size: 100% 100%;
 }
- @media (max-width: 743px) {
+@media (max-width: 743px) {
   .header {
     width: 100%;
     height: 534px;
@@ -105,7 +105,7 @@ h6 {
 
     margin: 0 auto;
   }
-} 
+}
 @media (max-width: 430px) {
   .header {
     background-image: url("image/bgMobileBig.png");
@@ -137,7 +137,7 @@ h6 {
     min-width: 300px;
     display: flex;
     justify-content: center;
-    
+
     margin: 0 auto;
   }
 }
@@ -266,7 +266,8 @@ h6 {
   display: flex;
   background-image: url(image/icons/mobile.svg);
   background-repeat: no-repeat;
-  background-size: calc(100vw / 1280 * 25);
+  background-size: calc(100vw / 1280 * 24);
+  background-position: left center;
 }
 .link-container:hover .phone-header-text {
   background-image: url(image/icons/mobileHover.svg);
@@ -298,7 +299,7 @@ h6 {
 }
 .header-left-links a {
   display: block;
-  font-family: "Raleway";
+  font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 500;
   font-size: calc(100vw / 1280 * 22);
@@ -619,7 +620,7 @@ h6 {
     width: 300px;
     margin-bottom: 30px;
   }
-  .link-container .vprodaje-left-address-text{
+  .link-container .vprodaje-left-address-text {
     background-size: 17.5px 25px;
   }
 }
@@ -1229,7 +1230,7 @@ h6 {
   .hotite-mail a {
     display: block;
     padding: 14px 20px;
-    font-family: 'Josefin Sans';
+    font-family: "Josefin Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1246,7 +1247,7 @@ h6 {
     display: block;
     padding: 14px 20px;
     display: block;
-    font-family: 'Josefin Sans';
+    font-family: "Josefin Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -1355,12 +1356,14 @@ h6 {
     width: 240px;
   }
   .footer-container-data {
-   display: none;
+    display: none;
   }
 }
-.mobile-call-icon{display: none;}
+.mobile-call-icon {
+  display: none;
+}
 @media (max-width: 743px) {
-  .mobile-call-icon{
+  .mobile-call-icon {
     display: block;
     position: fixed;
     bottom: 15px;
