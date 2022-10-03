@@ -368,7 +368,7 @@ h6 {
   }
 }
 .header-right {
-  margin-left: calc(100vw / 1280 * 70);
+  margin-left: calc(100vw / 1280 * 100);
   width: calc(100vw / 1280 * 360);
   background-color: #ffffff;
   margin-bottom: calc(100vw / 1280 * 70);
@@ -764,11 +764,11 @@ h6 {
 }
 .eco-right {
   padding-top: calc(100vw / 1280 * 122);
-  padding-left: calc(100vw / 1280 * 70);
+  padding-left: calc(100vw / 1280 * 63);
 }
 .eco-right-block {
   display: flex;
-  margin-top: calc(100vw / 1280 * 39);
+  margin-top: calc(100vw / 1280 * 37);
   border: calc(100vw / 1280 * 3) solid #ffffff;
   width: calc(100vw / 1280 * 360);
   height: calc(100vw / 1280 * 178);
@@ -783,6 +783,7 @@ h6 {
   text-align: center;
   vertical-align: middle;
   letter-spacing: 0.07em;
+  text-transform: uppercase;
 }
 .eco-right-block-header span {
   font-family: "Josefin Sans";
@@ -981,7 +982,7 @@ h6 {
 
 .tactical-right {
   margin-top: calc(100vw / 1280 * 166);
-  margin-left: calc(100vw / 1280 * 95);
+  margin-left: calc(100vw / 1280 * 77);
 }
 .tactical-right-text {
   width: calc(100vw / 1280 * 360);
